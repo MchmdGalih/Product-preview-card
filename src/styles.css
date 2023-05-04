@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -51,11 +53,14 @@ body {
 .details {
   width: 300px;
 }
-.details p {
+
+.details > p {
   padding-left: 8px;
   font-size: 14px;
   letter-spacing: 4px;
+  font-weight: 500;
 }
+
 .price {
   width: 300px;
   margin-top: 10px;
@@ -68,7 +73,7 @@ body {
   padding-left: 4px;
   font-family: "Fraunces", "serif";
 }
-.price p {
+.price > p {
   text-decoration: line-through;
   padding-right: 65px;
   padding-top: 15px;
